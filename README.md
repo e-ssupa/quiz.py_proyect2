@@ -3,7 +3,7 @@ This is a quiz game you can use in the console to test your general knowledge an
 
 ## Features
 
-* Multi-wave progression system: The quiz contains 19 intense questions split into stages, featuring an integrated transition indicator message when you pass the first wave.
+* Multi-wave progression system: The quiz contains 25 intense questions split into stages, featuring an integrated transition indicator message when you pass the first wave.
 * Strict input validation loop: The program checks your choices carefully. If you type an invalid symbol, it won't skip the question or break; it will loop until you give a valid response.
 * Custom status generator: It dynamically calculates your right choices, converts them into a percentage, and assigns an overall intelligence tier (Einstein status).
 * Playback looping system: The script lets you instantly restart the game to retest your skills, or you can shut it down gracefully.
