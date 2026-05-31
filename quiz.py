@@ -15,7 +15,6 @@ while True:
         print('Inputting the questions..')
         sleep(2)
 
-    # 25 Total Questions
     questions = (
         "What is the SECOND most spoken language in the United States of America?",
         "5 to the power of 10?",
@@ -44,7 +43,6 @@ while True:
         "Which gas makes up the majority of Earth's atmosphere?"
     )
 
-    # Perfectly aligned answer options matching your 25 questions
     options = (
         ("A: French", "B: Spanish", "C: Chinese", "D: German"),
         ("A: 9,765,625", "B: 1,562,500", "C: 50,000,000", "D: 4,882,812"),
@@ -73,7 +71,6 @@ while True:
         ("A: Oxygen", "B: Nitrogen", "C: Carbon Dioxide", "D: Hydrogen")
     )
 
-    # Verified correct letters mapped sequentially to indexes 0 through 24
     answers = ("B", "A", "C", "D", "B", "B", "C", "A", "C", "C", "D", "B", "D", "B", "B", "A", "A", "D", "C", "C", "B", "C", "D", "D", "B")
     
     guesses = []
@@ -122,7 +119,6 @@ while True:
             print(f"I think it was {answers[question_num]} ...")
             sleep(1.25)
 
-        # Mid-game wave transition marker left exactly on question 9 (Index 8)
         if question_num == 8:
             print("\nInto to the second wave of questions we go...\n")
             sleep(2.0)
